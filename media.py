@@ -5,10 +5,10 @@ import webbrowser
 class Movie():
     ''' This class provides a way to store movie-related information.'''
 
+    # initialize instance of class Movie
     def __init__(self, movie_title, release_year, rating,
                 movie_storyline, actors, poster_image,
                 trailer_youtube,):
-        # initialize instance of class Movie
         self.title = movie_title
         self.release_year = release_year
         self.rating = rating

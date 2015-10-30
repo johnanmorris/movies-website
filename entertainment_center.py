@@ -1,7 +1,10 @@
 # https://www.udacity.com/course/viewer#!/c-nd000/l-4185678656/e-991358856/m-1013629064
 
-import media # uses media.py
-import fresh_tomatoes # uses fresh_tomatoes.py
+# uses media.py
+import media
+
+# uses fresh_tomatoes.py
+import fresh_tomatoes
 
 ten_things = media.Movie("10 Things I Hate About You",
 	"1999",
@@ -87,7 +90,7 @@ sound_of_music = media.Movie("The Sound of Music",
 movies = [ten_things, blazing_saddles, coneheads, dr_strangelove, gattaca, 
 		groundhog_day, incendies, king_and_i, holy_grail, sound_of_music]
 
-'''Takes the movies list and runs it through the fresh_tomatoes.py
-open_movies_page function to generate the movies page.'''
+# Takes the movies list and runs it through the fresh_tomatoes.py
+# open_movies_page function to generate the movies page.
 
 fresh_tomatoes.open_movies_page(movies)
